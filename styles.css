@@ -170,6 +170,11 @@
   font-style: normal;
   font-display: swap;
 }
+header {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .button {
   box-sizing: border-box;
   background-color: #34547a;
@@ -195,10 +200,9 @@
 }
 .block1 {
   padding-top: 79px;
-  padding-left: 399px;
+
   padding-bottom: 141px;
   box-sizing: border-box;
-  width: 1920px;
   height: 700px;
   margin-left: 0px;
   margin-top: 0px;
@@ -254,15 +258,16 @@ h1 {
 }
 .block2 {
   padding-top: 112px;
-  padding-left: 690px;
+
   box-sizing: border-box;
-  width: 1920px;
   height: 359px;
   margin-left: 0px;
   margin-top: 0px;
   background-color: #fff;
 }
 .block2in {
+  margin-left: auto;
+  margin-right: auto;
   width: 540px;
 }
 .block2text {
@@ -277,6 +282,7 @@ h1 {
   color: #727272;
 }
 h2 {
+  margin-top: 0px;
   text-align: center;
   margin-bottom: 42px;
   font-family: Roboto;
@@ -287,14 +293,18 @@ h2 {
 }
 .block3 {
   box-sizing: border-box;
-  padding-left: 409px;
+
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 1920px;
   height: 250px;
   background-color: #34547a;
 }
 .block3in {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1185px;
+}
+.card {
   display: inline-block;
 }
 .block3in img {
@@ -327,16 +337,18 @@ h2 {
   color: #ffffff;
 }
 .block4 {
-  width: 1920px;
+  margin-bottom: 0px;
   height: 1004px;
   background: #eeeff1;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .block4in {
-  margin-left: 690px;
-  margin-right: 690px;
-  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1110px;
 }
 .block4in p {
   font-family: Roboto;
@@ -348,4 +360,47 @@ h2 {
   text-align: center;
   color: #727272;
   margin-bottom: 46px;
+}
+.video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block4text {
+  width: 540px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  box-sizing: border-box;
+}
+footer {
+  padding-top: 50px;
+  margin-top: 0px;
+  height: 151px;
+  background: #34547a;
+}
+.footerin {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+footer h3 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
 }
